@@ -1,0 +1,271 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2140283600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios Login Page",
+            "match": {
+              "location": "steps.StepDefinition.user_is_on_the_codefios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 776314700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"username\" from mySql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_from_mySql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 390996700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"password\" from mySql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_from_mySql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7814695300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on SignIn button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 551470000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to land on Dashboard Page",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_land_on_Dashboard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-16T17:36:18.013Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3047119400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User should be able to add account",
+        "description": "",
+        "id": "user-should-be-able-to-add-account-under-list-account-tab-on-dashboard-page;user-should-be-able-to-add-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1785149900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on list accounts tab on dashboard page",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_list_accounts_tab_on_dashboard_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117959800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on add account tab",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_add_account_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274891400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters account name \"MyName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MyName\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_account_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271533400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User writes description \"Sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sample\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.StepDefinition.user_writes_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109364100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters initial balance \"500.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500.00\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_initial_balance(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109768000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters A/C number \"23456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23456789\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_A_C_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124983400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters contact person \"MySelf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MySelf\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_contact_person(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405789500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on save button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460940600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be able to see the success alert popUp",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_see_the_success_alert_popUp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddAccountFeature"
+          },
+          {
+            "name": "@AddAccountScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to add account under list account tab on dashboard page",
+    "description": "",
+    "id": "user-should-be-able-to-add-account-under-list-account-tab-on-dashboard-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/ListAccountsData.feature",
+    "tags": [
+      {
+        "name": "@AddAccountFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
